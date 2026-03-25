@@ -1,5 +1,5 @@
 /*Name: KIBI DARIUS*/
-/*Stident Number: 25/U//BIO/01383/PD*/
+/*Student Number: 25/U//BIO/01383/PD*/
 
 #include<stdio.h>
 int main()
