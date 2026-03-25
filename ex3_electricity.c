@@ -1,11 +1,23 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+/*Name: KIBI DARIUS*/
+/*Stident Number: 25/U//BIO/01383/PD*/
 
-#include <stdio.h>
-
-int main(void)
+#include<stdio.h>
+int main()
 {
-    /* Write your code here */
+   // define the variables
+   float unitsconsumed, costperunit, totalelectricitybill;
 
-    return 0;
+   printf("enter the unitsconsumed:");// enter the unitsconsumed
+   scanf("%f",&unitsconsumed);// display and assign the unitsconsumed
+
+   printf("enter the costperunit:");
+   scanf("%f",&costperunit);
+
+   //calculate and display the totalelcectricitybill from the fromaula
+   totalelectricitybill=((unitsconsumed*costperunit));
+   printf("totalelectricitybill is:%.2fUGX\n",totalelectricitybill);
+
+
+
+return 0;  
 }
